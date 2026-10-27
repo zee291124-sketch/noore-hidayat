@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="روزانہ اچھی عادات، نماز ٹریکر، قرآنِ کریم اور مستند حدیث کے لیے اسلامی ویب سائٹ۔">
+<meta name="theme-color" content="#0b5d4b">
+<title>نور ہدایت | اسلامی روزمرہ رہنمائی</title>
+<style>
+:root{--green:#0b5d4b;--green2:#12806a;--gold:#d9b86c;--cream:#f7f5ee;--ink:#18332d;--muted:#65756f;--white:#fff;--line:#e1e8e2}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:Tahoma,"Noto Nastaliq Urdu",Arial,sans-serif;line-height:1.8}
+header{background:linear-gradient(135deg,#073f34,#0b5d4b 65%,#12806a);color:#fff;padding:22px 16px 34px}
+.wrap{max-width:1100px;margin:auto;padding:0 16px}.top{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.brand{font-size:1.55rem;font-weight:800}.brand small{display:block;font-size:.85rem;font-weight:400;color:#d9eee6}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}button,.navbtn{border:0;border-radius:12px;padding:10px 15px;font:inherit;cursor:pointer;transition:.2s}
+.navbtn{background:#ffffff18;color:#fff;border:1px solid #ffffff38}.navbtn.active,.navbtn:hover{background:var(--gold);color:#17352d}
+.hero{padding:25px 0 5px;max-width:750px}.hero h1{font-size:clamp(1.6rem,4vw,2.5rem);line-height:1.45;margin:0 0 8px}.hero p{margin:0;color:#e0f0e9}
+main{padding:24px 0 50px}.section{display:none}.section.active{display:block}.section-title{margin:0 0 5px;font-size:1.6rem}.sub{margin:0 0 18px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 5px 18px #17352d08}
+.card h3{margin:0 0 8px}.statrow{display:flex;justify-content:space-between;gap:10px;align-items:center}.progress{height:12px;background:#e7eee9;border-radius:99px;overflow:hidden;margin:12px 0}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--green2),#75b79a);border-radius:99px;transition:width .25s}
+.big{font-size:1.6rem;font-weight:800;color:var(--green)}.habit-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:9px}
+.checkitem{display:flex;gap:10px;align-items:flex-start;padding:12px;background:#fff;border:1px solid var(--line);border-radius:12px}
+input[type=checkbox]{accent-color:var(--green);width:20px;height:20px;flex-shrink:0;margin-top:5px;cursor:pointer}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.primary{background:var(--green);color:#fff}.primary:hover{background:#084638}.secondary{background:#e5eee8;color:var(--green)}.danger{background:#fbe8e5;color:#9c352b}
+select,input[type=search]{font:inherit;border:1px solid #cbd8cf;border-radius:10px;padding:9px 12px;background:#fff;max-width:100%}
+.notice{background:#fff7df;border:1px solid #eedca3;padding:12px 14px;border-radius:12px;color:#6e5720;margin:14px 0}
+.arabic{font-family:"Times New Roman",serif;font-size:1.45rem;line-height:2.2;text-align:right;direction:rtl}.verse{padding:15px 0;border-bottom:1px solid var(--line)}.muted{color:var(--muted);font-size:.92rem}.pill{display:inline-block;border-radius:999px;background:#e4f2e9;color:var(--green);padding:3px 10px;font-size:.85rem}
+footer{text-align:center;background:#073f34;color:#e0f0e9;padding:22px 12px}a{color:var(--green)}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #d9b86c;outline-offset:2px}
+@media(max-width:600px){.brand{font-size:1.25rem}.navbtn{flex:1;min-width:42%;padding:8px}.hero{padding-top:18px}.card{padding:15px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <div class="top"><div class="brand">☪ نور ہدایت <small>روزانہ کی زندگی میں نیکی کی طرف ایک قدم</small></div><span class="pill">مفت اسلامی ٹریکر</span></div>
+  <nav aria-label="مرکزی نیویگیشن">
+   <button class="navbtn active" data-page="home">ہوم</button>
+   <button class="navbtn" data-page="habits">اچھی عادات</button>
+   <button class="navbtn" data-page="prayer">نماز ٹریکر</button>
+   <button class="navbtn" data-page="quran">قرآن و حدیث</button>
+  </nav>
+  <div class="hero"><h1>ہر دن نیکی، ہر دن ہدایت</h1><p>اپنی اچھی عادات کا جائزہ لیں، نمازوں کی پابندی ٹریک کریں اور قرآنِ کریم سے روزانہ تعلق مضبوط بنائیں۔</p></div>
+ </div>
+</header>
+<main class="wrap">
+<section id="home" class="section active">
+ <h2 class="section-title">السلام علیکم!</h2><p class="sub">آپ کا روزانہ کا اسلامی ڈیش بورڈ — آپ کی پیش رفت اسی ڈیوائس کے براؤزر میں محفوظ ہوگی۔</p>
+ <div class="cards">
+  <div class="card"><h3>🌱 اچھی عادات</h3><div class="statrow"><span>آج کی پیش رفت</span><span class="big" id="homeHabits">0%</span></div><div class="progress"><div class="bar" id="homeHabitsBar"></div></div><button class="primary" data-goto="habits">عادات ٹریک کریں</button></div>
+  <div class="card"><h3>🕌 پانچ وقت کی نماز</h3><div class="statrow"><span>آج کی پیش رفت</span><span class="big" id="homePrayer">0%</span></div><div class="progress"><div class="bar" id="homePrayerBar"></div></div><button class="primary" data-goto="prayer">نماز ٹریکر کھولیں</button></div>
+  <div class="card"><h3>📖 قرآن و حدیث</h3><p>قرآن کی سورتیں پڑھیں اور آج کی حدیث ملاحظہ کریں۔</p><button class="primary" data-goto="quran">مطالعہ شروع کریں</button></div>
+ </div>
+ <div class="notice">یاد دہانی: ٹریکر ذاتی جائزے اور عادت بنانے میں مدد کے لیے ہے۔ عبادت کی قبولیت کا فیصلہ صرف اللہ تعالیٰ فرماتا ہے۔</div>
+</section>
+<section id="habits" class="section">
+ <h2 class="section-title">🌱 50 اچھی عادات</h2><p class="sub">ہر عادت مکمل کرنے پر ٹک لگائیں۔ روزانہ کی پیش رفت خود حساب ہوگی اور نیا دن شروع ہونے پر چیک لسٹ خود ری سیٹ ہو جائے گی۔</p>
+ <div class="card"><div class="statrow"><strong>آج کی اچھی عادات</strong><span class="big" id="habitPct">0%</span></div><div class="progress"><div class="bar" id="habitBar"></div></div><div class="muted" id="habitCount">0 از 50 مکمل</div></div>
+ <div class="controls"><button class="secondary" id="habitsAll">سب پر ٹک لگائیں</button><button class="secondary" id="habitsNone">تمام ٹک ہٹائیں</button></div>
+ <div id="habitList" class="habit-list"></div>
+</section>
+<section id="prayer" class="section">
+ <h2 class="section-title">🕌 نماز ٹریکر</h2><p class="sub">فرض نمازوں کی ادائیگی کا روزانہ ریکارڈ رکھیں۔ ہفتہ وار اور ماہانہ پیش رفت بھی دیکھیں۔</p>
+ <div class="card"><label for="prayerDate">تاریخ منتخب کریں: </label> <input type="date" id="prayerDate"><div class="statrow" style="margin-top:12px"><strong>منتخب دن کی پیش رفت</strong><span class="big" id="prayerPct">0%</span></div><div class="progress"><div class="bar" id="prayerBar"></div></div><div class="muted" id="prayerCount">0 از 5 نمازیں مکمل</div><div id="prayerList" style="margin-top:12px"></div></div>
+ <div class="cards" style="margin-top:15px">
+  <div class="card"><h3>اس ہفتے</h3><div class="big" id="weekPct">0%</div><div class="progress"><div class="bar" id="weekBar"></div></div><p class="muted" id="weekText">0 از 35 نمازیں</p></div>
+  <div class="card"><h3>اس مہینے</h3><div class="big" id="monthPct">0%</div><div class="progress"><div class="bar" id="monthBar"></div></div><p class="muted" id="monthText">0 نمازیں مکمل</p></div>
+ </div>
+ <div class="notice">یہ ٹریکر نمازوں کا ذاتی ریکارڈ رکھنے کے لیے ہے؛ قضا نمازوں یا شرعی مسائل کے بارے میں مستند عالم سے رہنمائی لیں۔</div>
+</section>
+<section id="quran" class="section">
+ <h2 class="section-title">📖 قرآنِ کریم اور حدیث</h2><p class="sub">سورت منتخب کریں؛ قرآن کا عربی متن ایک مستند عوامی قرآن API سے لوڈ ہوگا۔ انٹرنیٹ ضروری ہے۔</p>
+ <div class="card">
+  <label for="surahSelect">سورت منتخب کریں: </label> <select id="surahSelect"><option>سورتوں کی فہرست لوڈ ہو رہی ہے…</option></select>
+  <div class="controls"><button class="primary" id="loadSurah">سورت پڑھیں</button><button class="secondary" id="prevSurah">پچھلی سورت</button><button class="secondary" id="nextSurah">اگلی سورت</button></div>
+  <h3 id="surahHeading">قرآنِ کریم</h3><div id="quranStatus" class="muted" aria-live="polite">سورتوں کی فہرست حاصل کی جا رہی ہے…</div><div id="verses"></div>
+  <p class="muted">متن کی فراہمی کے لیے alquran.cloud API استعمال کی جاتی ہے۔ اگر متن لوڈ نہ ہو تو انٹرنیٹ کنکشن چیک کریں۔</p>
+ </div>
+ <div class="card" style="margin-top:15px">
+  <h3>🌙 آج کی حدیث</h3><span class="pill" id="hadithDay">آج کا دن</span>
+  <p id="hadithText" class="arabic" style="font-size:1.2rem"></p>
+  <p id="hadithTranslation"></p><p id="hadithSource" class="muted"></p>
+  <div class="notice">حدیث کے حوالے احتیاط سے شامل کیے گئے ہیں۔ دینی اشاعت سے پہلے اصل ماخذ سے عبارت اور ترجمے کی تصدیق کر لیں۔</div>
+ </div>
+</section>
+</main>
+<footer><div>☪ نور ہدایت</div><div class="muted" style="color:#c9ded6">اللہ تعالیٰ ہمیں علمِ نافع اور عملِ صالح عطا فرمائے۔ آمین۔</div><small>یہ ایک ابتدائی ویب سائٹ ٹیمپلیٹ ہے؛ ذاتی ٹریکر ڈیٹا اسی براؤزر میں محفوظ ہوتا ہے۔</small></footer>
+<script>
+const habits = [
+"فجر کے وقت جاگنا",
+"نمازِ فجر پڑھنا",
+"قرآنِ مجید کی تلاوت کرنا",
+"100 بار درود شریف پڑھنا",
+"کسی سے ملتے وقت سلام کرنا",
+"غصے پر قابو رکھنا",
+"غیبت سے پرہیز کرنا",
+"جہاں بیٹھیں، لوگوں کو کوئی ایک اچھی بات بتانا",
+"لوگوں اور گھر والوں سے مسکرا کر ملنا",
+"فلمیں اور ڈرامے دیکھنے سے پرہیز کرنا",
+"گانے سننے سے پرہیز کرنا",
+"بیٹھ کر پانی پینا",
+"پانی پینے سے پہلے بسم اللہ پڑھنا",
+"پانی تین سانسوں میں پینا",
+"کھانے یا پینے سے پہلے بسم اللہ اور بعد میں الحمدللہ کہنا",
+"آہستہ چلنا",
+"تحمل سے کام لینا",
+"سب سے پیار سے پیش آنا",
+"فضول باتوں سے پرہیز کرنا",
+"گالی نہ نکالنا",
+"ضرورت کے وقت خاموشی اختیار کرنا",
+"فضول کاموں سے پرہیز کرنا",
+"نماز کی پابندی کرنا",
+"100 بار استغفار کرنا",
+"سونے سے پہلے وضو کرنا",
+"سونے سے پہلے کی دعا پڑھنا",
+"سو کر اٹھنے کی دعا پڑھنا",
+"بیت الخلا جانے کی دعا پڑھنا",
+"بیت الخلا سے باہر آنے کی دعا پڑھنا",
+"اپنے آپ کو اچھے کاموں میں مصروف رکھنا",
+"لوگوں کو اچھے کام کرنے کی دعوت دینا",
+"دوسروں کے کام آنا",
+"خود کو برے کاموں سے دور رکھنا",
+"لوگوں کو فائدہ پہنچانا",
+"حسبِ توفیق صدقہ دینا",
+"بغض نہ رکھنا",
+"حسد سے بچنا",
+"بددعا نہ کرنا",
+"صاف ستھرا رہنا",
+"اپنے آس پاس اور ماحول کو صاف ستھرا رکھنا",
+"نہانا اور صفائی کا خیال رکھنا",
+"ناخن کاٹنا",
+"بالوں میں کنگھی کرنا",
+"داڑھی رکھنا",
+"حجاب کرنا",
+"نامحرم کو دیکھنے سے بچنا",
+"نامحرم کے سامنے جانے سے حتی الامکان پرہیز کرنا",
+"زیادہ سے زیادہ اللہ کا ذکر کرنا",
+"ان اچھی عادات کو اپنانے کی کوشش کرنا",
+"نور ہدایت ویب سائٹ کو شیئر کرنا"
+];
+const prayers=["فجر","ظہر","عصر","مغرب","عشاء"];
+const $=id=>document.getElementById(id);
+const todayKey=()=>new Date().toLocaleDateString('en-CA');
+const dayKey=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const read=(k,def)=>{try{return JSON.parse(localStorage.getItem(k))??def}catch{return def}};
+const write=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+function showPage(page){document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id===page));document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('active',b.dataset.page===page));if(page==='prayer')renderPrayer();if(page==='quran'&&!quranReady)loadSurahList();window.scrollTo({top:0,behavior:'smooth'})}
+document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>showPage(b.dataset.page)));
+document.querySelectorAll('[data-goto]').forEach(b=>b.addEventListener('click',()=>showPage(b.dataset.goto)));
+function pct(n,total){return total?Math.round(n/total*100):0}
+function setProgress(label,bar,p){$(label).textContent=p+'%';$(bar).style.width=p+'%'}
+function habitKey(){return 'nh_habits_'+todayKey()}
+function getHabits(){let x=read(habitKey(),[]);return Array.isArray(x)?x:[]}
+function renderHabits(){const checked=getHabits();$('habitList').innerHTML='';habits.forEach((name,i)=>{const label=document.createElement('label');label.className='checkitem';const cb=document.createElement('input');cb.type='checkbox';cb.checked=checked.includes(i);cb.addEventListener('change',()=>{let now=getHabits();now=cb.checked?[...new Set([...now,i])]:now.filter(n=>n!==i);write(habitKey(),now);renderHabits()});const span=document.createElement('span');span.textContent=(i+1)+'. '+name;label.append(cb,span);$('habitList').append(label)});const p=pct(checked.length,habits.length);setProgress('habitPct','habitBar',p);$('habitCount').textContent=checked.length+' از '+habits.length+' مکمل';setProgress('homeHabits','homeHabitsBar',p)}
+$('habitsAll').addEventListener('click',()=>{write(habitKey(),habits.map((_,i)=>i));renderHabits()});
+$('habitsNone').addEventListener('click',()=>{write(habitKey(),[]);renderHabits()});
+function prayerKey(date){return 'nh_prayer_'+date}
+function getPrayer(date){return read(prayerKey(date),[])}
+function renderPrayer(){const date=$('prayerDate').value||todayKey();$('prayerDate').value=date;const done=getPrayer(date);$('prayerList').innerHTML='';prayers.forEach((name,i)=>{const label=document.createElement('label');label.className='checkitem';label.style.marginBottom='8px';const cb=document.createElement('input');cb.type='checkbox';cb.checked=done.includes(i);cb.addEventListener('change',()=>{let now=getPrayer(date);now=cb.checked?[...new Set([...now,i])]:now.filter(n=>n!==i);write(prayerKey(date),now);renderPrayer()});const span=document.createElement('span');span.textContent=name+' کی فرض نماز';label.append(cb,span);$('prayerList').append(label)});const p=pct(done.length,5);setProgress('prayerPct','prayerBar',p);$('prayerCount').textContent=done.length+' از 5 نمازیں مکمل';setProgress('homePrayer','homePrayerBar',p);renderAggregates()}
+function renderAggregates(){const now=new Date();let weekTotal=0,weekPossible=35;const start=new Date(now);const weekday=(now.getDay()+6)%7;start.setDate(now.getDate()-weekday);for(let i=0;i<7;i++){const d=new Date(start);d.setDate(start.getDate()+i);weekTotal+=getPrayer(dayKey(d)).length}setProgress('weekPct','weekBar',pct(weekTotal,weekPossible));$('weekText').textContent=weekTotal+' از 35 نمازیں';let monthTotal=0;const first=new Date(now.getFullYear(),now.getMonth(),1);const days=new Date(now.getFullYear(),now.getMonth()+1,0).getDate();for(let i=0;i<days;i++){const d=new Date(first);d.setDate(i+1);monthTotal+=getPrayer(dayKey(d)).length}setProgress('monthPct','monthBar',pct(monthTotal,days*5));$('monthText').textContent=monthTotal+' از '+(days*5)+' نمازیں مکمل'}
+$('prayerDate').value=todayKey();$('prayerDate').addEventListener('change',renderPrayer);
+let quranReady=false,surahData=[];
+async function loadSurahList(){if(quranReady)return;const sel=$('surahSelect');$('quranStatus').textContent='سورتوں کی فہرست لوڈ ہو رہی ہے…';try{const res=await fetch('https://api.alquran.cloud/v1/surah');if(!res.ok)throw Error();const json=await res.json();surahData=json.data;sel.innerHTML='';surahData.forEach(s=>{const op=document.createElement('option');op.value=s.number;op.textContent=s.number+'. '+s.name+' — '+s.englishName;sel.append(op)});quranReady=true;$('quranStatus').textContent='114 سورتوں کی فہرست دستیاب ہے۔';await loadSurah()}catch(e){sel.innerHTML='<option value="1">الفاتحہ</option>'; $('quranStatus').textContent='سورتیں لوڈ نہیں ہو سکیں۔ انٹرنیٹ چیک کریں اور دوبارہ کوشش کریں۔'}}
+async function loadSurah(){const n=Number($('surahSelect').value||1);$('verses').innerHTML='';$('quranStatus').textContent='آیات لوڈ ہو رہی ہیں…';try{const res=await fetch('https://api.alquran.cloud/v1/surah/'+n+'/quran-uthmani');if(!res.ok)throw Error();const json=await res.json();const s=json.data;$('surahHeading').textContent=s.number+'. '+s.name+' ('+s.englishName+')';s.ayahs.forEach(a=>{const div=document.createElement('div');div.className='verse';const ar=document.createElement('div');ar.className='arabic';ar.textContent=a.text+' ۞';const meta=document.createElement('div');meta.className='muted';meta.textContent='آیت '+a.numberInSurah;div.append(ar,meta);$('verses').append(div)});$('quranStatus').textContent=s.ayahs.length+' آیات'}catch(e){$('quranStatus').textContent='قرآن کا متن لوڈ نہیں ہو سکا۔ انٹرنیٹ کنکشن چیک کریں۔'}}
+$('loadSurah').addEventListener('click',loadSurah);
+$('surahSelect').addEventListener('change',loadSurah);
+$('prevSurah').addEventListener('click',()=>{const s=$('surahSelect');s.value=Math.max(1,Number(s.value)-1);loadSurah()});
+$('nextSurah').addEventListener('click',()=>{const s=$('surahSelect');s.value=Math.min(114,Number(s.value)+1);loadSurah()});
+const hadiths=[
+{ar:'إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ',ur:'اعمال کا دارومدار نیتوں پر ہے۔',src:'صحیح البخاری، حدیث 1؛ صحیح مسلم، حدیث 1907'},
+{ar:'الدِّينُ النَّصِيحَةُ',ur:'دین خیرخواہی کا نام ہے۔',src:'صحیح مسلم، حدیث 55'},
+{ar:'مَنْ لَا يَرْحَمْ لَا يُرْحَمْ',ur:'جو رحم نہیں کرتا، اس پر رحم نہیں کیا جاتا۔',src:'صحیح البخاری، حدیث 6013؛ صحیح مسلم، حدیث 2319'},
+{ar:'الْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ',ur:'اچھی بات کہنا بھی صدقہ ہے۔',src:'صحیح البخاری، حدیث 2989؛ صحیح مسلم، حدیث 1009'},
+{ar:'لَا تَغْضَبْ',ur:'غصہ نہ کرو۔',src:'صحیح البخاری، حدیث 6116'},
+{ar:'مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ',ur:'جو اللہ اور آخرت پر ایمان رکھتا ہے، وہ اچھی بات کہے یا خاموش رہے۔',src:'صحیح البخاری، حدیث 6018؛ صحیح مسلم، حدیث 47'},
+{ar:'يَسِّرُوا وَلَا تُعَسِّرُوا',ur:'آسانی پیدا کرو، دشواری نہ پیدا کرو۔',src:'صحیح البخاری، حدیث 69؛ صحیح مسلم، حدیث 1734'}
+];
+function renderHadith(){const d=new Date();const idx=(Math.floor(new Date(d.getFullYear(),0,0).getTime()/86400000)+Math.floor((d-new Date(d.getFullYear(),0,0))/86400000))%7;$('hadithDay').textContent=['اتوار','پیر','منگل','بدھ','جمعرات','جمعہ','ہفتہ'][d.getDay()];const h=hadiths[d.getDay()];$('hadithText').textContent=h.ar;$('hadithTranslation').textContent=h.ur;$('hadithSource').textContent='حوالہ: '+h.src}
+renderHabits();renderPrayer();renderHadith();
+</script>
+</body>
+</html>
